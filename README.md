@@ -17,5 +17,11 @@
       -  bundle exec guard ;
       - rails g devise User ;
       - rails g migration AddFieldsToUsers ;
-      -                                                           
+      - rails g migration AddUserIdToTweeets user_id:integer 
+
+      - rails c ( @user = User; @user; @tweeet = Tweeet; @user.last; @user = @user.last ;@user.destroy;@user = User;@user.all;) 
+
+      -
+
+
 ```
