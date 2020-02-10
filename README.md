@@ -16,5 +16,6 @@
       - rails generate devise:install ,
       -  bundle exec guard ;
       - rails g devise User ;
-      - 
+      - rails g migration AddFieldsToUsers ;
+      -                                                           
 ```
