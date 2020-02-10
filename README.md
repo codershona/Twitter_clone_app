@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### PROJECT : TWITTER CLONE APP USING RAILS %.
 
-Things you may want to cover:
 
-* Ruby version
+#### READY TO DELPOY IN HEROKU>
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* NOTES: 
+```
+   First steps: 
+      - rails g scaffold Tweeet tweeet:text ;
+      - 
+```
