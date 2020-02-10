@@ -15,5 +15,6 @@
       - rails generate simple_form:install ;
       - rails generate devise:install ,
       -  bundle exec guard ;
+      - rails g devise User ;
       - 
 ```
