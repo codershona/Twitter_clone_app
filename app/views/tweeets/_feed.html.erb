@@ -1,4 +1,8 @@
 <div class="column is-half">
+
+  <% if user_signed_in? %>
+
+
 	<article class="media box">
 		<figure class="media-left">
 			<p class="image is-64x64">
@@ -10,6 +14,7 @@
 		</div>
 	</article>
 	
+  <% end %>
 
 
 <% @tweeets.each do | tweeet | %>
@@ -23,10 +28,15 @@
   		</div>
   		<div class="media-content">
   			<div class="content">
-  				<strong>BLOGGER Lissa</strong><br />
-  				<small>@travelblogger</small><br/>
-  				<p><%= tweeet.tweeet %></p>
+                <strong>John Doe</strong><br />
+          <small>@techblogger</small><br/>
+          <p><%= tweeet.tweeet %></p>
   			</div>
+
+
+        <% if user_signed_in? %>
+
+
   			<nav class="level">
   				<div class="level-left is-mobile">
   					<%= link_to tweeet, class: "level-item" do %>
@@ -39,7 +49,14 @@
   							<span class="icon"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
   					<% end %>
   				</div>
-  			</nav>
+
+        </nav>
+
+
+           <% end %>
+
+
+
   		</div>
   	</article>
   </div>
