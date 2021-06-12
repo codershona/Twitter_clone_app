@@ -8,6 +8,13 @@
 #### Project Can be found in here :
  **[Live version](https://aqueous-journey-32418.herokuapp.com/)**
 
+<p align="center">
+	
+<img src="https://user-images.githubusercontent.com/57604500/121789873-fbeeb900-cbd9-11eb-9fec-c2647289b644.png" width=996>
+<br />
+<h3 align="center">TWITTER CLONE APP</h3>
+</p>
+
 
 * NOTES: 
 ```
